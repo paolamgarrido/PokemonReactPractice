@@ -16,3 +16,88 @@ body{
 .left-content,.right-content{
     flex-basis: 50%;
 }
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* ✅ 2 columns */
+    gap: 2rem;
+}
+.card{
+    width: 300px;
+    background-color:#2ca2d4;
+    border-radius: 1rem;
+    box-shadow: 0 5px 5px rgba(65, 182, 240, 0.5);
+    padding: 0 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    color: rgb(252, 252, 252); 
+}
+.right-content{
+    width: 50%;
+    text-align: center;
+    color: white;
+    position: fixed;
+    top:100px;
+    right: 10px;
+}
+.right-content img{
+    margin: 1.5rem;
+    height: 160px;
+}
+.right-content h1{
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+.loading {
+    color: white;
+  }
+  
+.abilities{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+.abilities .group{
+    background-color: #2ca2d4;
+    box-shadow: 0 5px 5px rgba(65, 182, 240, 0.5);
+    color: white;
+    padding: 0.8rem;
+    font-size: 12px;
+    border-radius: 8px;
+    margin-left: 1rem;
+}
+.base-stat{
+    margin-top: 2rem;
+}
+
+.base-stat h3 {
+    margin: 0.5rem 0;
+    font-weight: 500;
+    font-size: 16px;
+}
+.base-stat{
+    margin-top: 2rem;
+}
+.btn-group{
+    display: flex;
+}
+.btn-group button{
+    outline: none;
+    border: none;
+    width: 135px;
+    padding: 0.3rem 0;
+    margin-top: 2rem;
+    margin-right: 1.5rem;
+    margin-bottom: 2rem;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    background-color: #ce394d;
+    border-radius: 8px;
+    box-shadow: 0 5px 5px rgba(230, 54, 54, 0.5);
+}
