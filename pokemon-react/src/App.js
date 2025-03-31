@@ -1,6 +1,6 @@
 import React from 'react';
-import Main from './Components/Main';
-import './Components/style.css'
+import Main from './paginas/Pokedex';
+import '../src/estilos/global.css'
 
 function App() {
   return (
